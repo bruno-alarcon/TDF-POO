@@ -1,3 +1,9 @@
+/* 10 SEPTIEMBRE
+Actividad Obligatoria
+
+Plantear la clase que describiste.
+Implementar en TypeScript.
+Transpilar el archivo. */
 var Celular = /** @class */ (function () {
     function Celular(paramMarca, paramModelo, paramColor, paramSistemaOperativo, paramNumeroCelular, paramBateria, paramPrendidoApagado) {
         this.marca = paramMarca;

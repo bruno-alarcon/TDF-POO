@@ -1,3 +1,11 @@
+/* 10 SEPTIEMBRE
+Actividad Obligatoria
+
+Plantear la clase que describiste.
+Implementar en TypeScript.
+Transpilar el archivo. */
+
+
 class Celular{
 
     marca:string ;
