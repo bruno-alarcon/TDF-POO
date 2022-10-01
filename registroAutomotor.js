@@ -1,4 +1,5 @@
-/* Actividad Obligatoria
+/*  21 SEPTIEMBRE
+Actividad Obligatoria
 Aplicando todo lo visto hasta el momento (objetos, composicion, encapsulamiento) , realizar el ejercicio del Registro Automotor con todas las funcionalidades
 Agregar getters y setters. */
 var RegistroAutomotor = /** @class */ (function () {
