@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+var GestorDeLibro_1 = require("./GestorDeLibro");
+var Libro_1 = require("./Libro");
+var biblioteca = new GestorDeLibro_1.GestorDeLibro("Biblioteca");
+var libro_1 = new Libro_1.Libro("Harry Potter 1", "J.K Rowling", "Fantasia");
+var libro_2 = new Libro_1.Libro("Harry Potter 2", "J.K Rowling", "Fantasia");
+var libro_3 = new Libro_1.Libro("Harry Potter 3", "J.K Rowling", "Fantasia");
+var libro_4 = new Libro_1.Libro("Harry Potter 4", "J.K Rowling", "Fantasia");
+var libro_5 = new Libro_1.Libro("Harry Potter 5", "J.K Rowling", "Fantasia");
+biblioteca.insertarLibro(libro_1);
+biblioteca.insertarLibro(libro_2);
+biblioteca.insertarLibro(libro_3);
+biblioteca.insertarLibro(libro_4);
+biblioteca.insertarLibro(libro_5);
+console.log(biblioteca.toString());
