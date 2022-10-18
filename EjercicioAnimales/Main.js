@@ -11,7 +11,7 @@ var animal4 = new Gato_1.Gato(4, "Manchas");
 var arrayAnimales = [animal1, animal2, animal3];
 var listadoA = new ListaDeAnimales_1.ListaDeAnimales(arrayAnimales);
 var respuesta;
-respuesta = listadoA.buscar(animal3);
+respuesta = listadoA.buscar(animal4);
 console.log("BUSCO EL ANIMAL EN LA LISTA");
 if (respuesta === false) {
     console.log("EL ANIMAL NO EXISTE");
